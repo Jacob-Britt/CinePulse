@@ -1,47 +1,65 @@
-/* src/app/styles/MovieDetail.module.css */
-.movieContainer {
+.container {
   margin-top: 20px;
 }
 
-.moviePaper {
+.videoPlayerWrapper {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.paper {
   padding: 20px;
   background-color: #1c1c1c;
   color: #ffffff;
 }
 
-.moviePoster {
+.posterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
-.movieTitle {
-  color: #00e5ff;
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  padding: 20px;
+}
+
+.title {
+  color: #010000; 
   margin-bottom: 20px;
 }
 
-.movieCategory {
-  color: #cccccc;
-  margin-bottom: 20px;
+.category, .overview, .releaseDate, .castTitle, .castList, .castItem {
+  color: #c54646;
 }
 
-.movieOverview {
-  margin-bottom: 20px;
-}
-
-.movieReleaseDate {
-  margin-bottom: 20px;
-}
-
-.movieCastTitle {
+.category {
+  color: #b3b3b3;
   margin-bottom: 10px;
 }
 
-.movieCastList {
+.overview, .releaseDate, .castTitle {
+  margin-bottom: 20px;
+}
+
+.castList {
   list-style: none;
   padding: 0;
 }
 
-.movieCastItem {
+.castItem {
   margin-bottom: 5px;
 }
