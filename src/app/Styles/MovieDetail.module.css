@@ -1,0 +1,47 @@
+/* src/app/styles/MovieDetail.module.css */
+.movieContainer {
+  margin-top: 20px;
+}
+
+.moviePaper {
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.moviePoster {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movieTitle {
+  color: #00e5ff;
+  margin-bottom: 20px;
+}
+
+.movieCategory {
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+.movieOverview {
+  margin-bottom: 20px;
+}
+
+.movieReleaseDate {
+  margin-bottom: 20px;
+}
+
+.movieCastTitle {
+  margin-bottom: 10px;
+}
+
+.movieCastList {
+  list-style: none;
+  padding: 0;
+}
+
+.movieCastItem {
+  margin-bottom: 5px;
+}

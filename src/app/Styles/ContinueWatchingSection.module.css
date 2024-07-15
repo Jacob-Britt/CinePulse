@@ -1,0 +1,35 @@
+/* src/app/styles/ContinueWatchingSection.module.css */
+.continueWatchingSection {
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  color: #00e5ff;
+  margin-bottom: 20px;
+}
+
+.movieGrid {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 10px;
+}
+
+.movieGrid::-webkit-scrollbar {
+  display: none;
+}
+
+.movieCardWrapper {
+  position: relative;
+}
+
+.progressBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  .MuiLinearProgress-barColorPrimary {
+    background-color: #00e5ff;
+  }
+}

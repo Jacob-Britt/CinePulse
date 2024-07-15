@@ -1,0 +1,55 @@
+/* src/app/styles/Header.module.css */
+
+.appBar {
+  background-color: #1c1c1c;
+  padding: 0 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #00e5ff;
+}
+
+.search {
+  position: relative;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-left: 10px;
+  width: 10%;
+}
+
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.searchIconWrapper {
+  padding: 0 16px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.styledInputBase {
+  color: inherit;
+  width: 10%;
+}
+
+.styledInputBase input {
+  padding: 8px 8px 8px 0;
+  padding-left: calc(1em + 32px);
+  transition: width 0.3s;
+}
+
+.styledInputBase input:focus {
+  width: 20ch;
+}

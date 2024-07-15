@@ -1,0 +1,36 @@
+/* src/app/styles/MovieCard.module.css */
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card {
+  max-width: 400px;
+  margin: 20px;
+  background-color: #1c1c1c;
+  transition: transform 0.2s;
+  color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.media {
+  height: 600px;
+}
+
+.content {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.title {
+  color: #00e5ff;
+}
+
+.overview {
+  color: #cccccc;
+}

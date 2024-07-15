@@ -1,0 +1,18 @@
+/* src/app/styles/Home.module.css */
+.container {
+  margin-top: 100px;
+}
+
+.searchField {
+  background-color: #2c2c2c;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.searchField input {
+  color: #ffffff;
+}
+
+.searchField label {
+  color: #ffffff;
+}
